@@ -4,7 +4,7 @@ public class paper extends tool{
 		this.type='p';
 	}
 	public boolean fight(tool t){
-		if(t.type=='s')
+		if(t.type=='r')
 			this.strength=2*strength;
 		else
 			this.strength=strength/2;
